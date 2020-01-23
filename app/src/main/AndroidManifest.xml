@@ -13,12 +13,12 @@
         tools:ignore="GoogleAppIndexingWarning">
 
         <activity
-            android:name=".fragments.FragmentViewPagerActivity"
+            android:name=".view.fragments.FragmentViewPagerActivity"
             android:label="Fragment Slider" />
         <activity
-            android:name=".activity.ViewsSliderActivity"
+            android:name=".view.welcomePage.ViewsSliderActivity"
             android:theme="@style/FullScreen" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".view.home.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

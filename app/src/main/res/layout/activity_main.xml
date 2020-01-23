@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <LinearLayout
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:listitem="@layout/item_single_row"
+        android:layout_height="match_parent" />
+    <!--<LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
@@ -11,18 +17,18 @@
         tools:context=".MainActivity">
 
         <Button
-            android:id="@+id/btn_views_demo"
-            style="@style/Widget.MaterialComponents.Button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/views_slider" />
-
-        <Button
             android:id="@+id/btn_fragment_demo"
-            style="@style/Widget.MaterialComponents.Button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/fragments_slider" />
 
-    </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_views_demo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/views_slider" />
+
+
+    </LinearLayout>-->
 </layout>
